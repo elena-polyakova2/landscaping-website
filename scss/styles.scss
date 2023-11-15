@@ -1,3 +1,11 @@
+.xl-text {
+  font-size: 75px;
+}
+
+.header-text {
+  font-size: 20px;
+}
+
 .btn-outline-secondary {
   color: var(--bs-secondary);
 }
@@ -6,4 +14,63 @@
   &:hover {
     color: #fff;
   }
+}
+
+.header .decoration-leaves {
+  top: 80px;
+  left: -100px;
+  width: 500px;
+  opacity: 0.2;
+  transform: scaleX(-1);
+}
+
+.header .decoration-leaves-2 {
+  top: 80px;
+  right: -100px;
+  width: 500px;
+  opacity: 0.2;
+}
+
+.navbar {
+ transition: all 0.5s ease-in-out;
+}
+
+.navbar-sticky {
+  background: #fff;
+  opacity: 0.9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+@media(max-width: 992px) {
+ .xl-text {
+  font-size: 50px;      
+ }
+ 
+ .navbar {
+  .btn-outline-secondary {
+    margin-top: 20px;
+  }
+ }
+
+ .header {
+  margin-top: 0px !important;
+  text-align: center;
+ }
+
+ .header .garden-water {
+  left: -100px;
+  width: 250px;
+}
+
+.header .garden-water-2 {
+  right: -100px;
+  width: 250px;
+}
+.header .image-container {
+  margin-top: 30px;
+}
+}
+
+@media(max-width: 576px) {
+  
 }
