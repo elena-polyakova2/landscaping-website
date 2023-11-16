@@ -10,4 +10,32 @@ function userScroll() {
   });
 }
 
+function incrementSats() {
+  const counters = document.querySelectorAll('.counter');
+
+  counters.forEach((counter) => {
+    counter.innerText = 0;
+
+    const updateCounter = () => {
+      const target = +counter.getAttribute('data-target');
+      //inner text
+      const c = +counter.innerText;
+
+      //increment speed
+      const increment = target / 300;
+
+      if (c < target) {
+        //round up the value
+        counter.innerText = Math.ceil(c + increment);
+        setTimeout(updateCounter, 1);
+      } else {
+        counter.innerText = target;
+      }
+    };
+
+    updateCounter();
+  });
+}
+
 document.addEventListener('DOMContentLoaded', userScroll);
+document.addEventListener('DOMContentLoaded', incrementSats);
