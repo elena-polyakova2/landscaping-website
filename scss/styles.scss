@@ -41,6 +41,14 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+.details .decoration-leaves {
+  top: 80px;
+  left: -100px;
+  width: 500px;
+  opacity: 0.2;
+  transform: scaleX(-1);
+}
+
 @media(max-width: 992px) {
  .xl-text {
   font-size: 50px;      
@@ -72,5 +80,7 @@
 }
 
 @media(max-width: 576px) {
-  
+  .details .decoration-leaves {
+    width: 300px;
+  }
 }
