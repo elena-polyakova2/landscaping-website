@@ -16,6 +16,13 @@
   }
 }
 
+.btn-secondary {
+  &:hover {
+    transform: scale(1.2); 
+    background-color: #8c37c8;
+  }
+}
+
 .header .decoration-leaves {
   top: 80px;
   left: -100px;
