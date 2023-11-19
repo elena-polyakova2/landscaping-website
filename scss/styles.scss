@@ -49,6 +49,13 @@
   transform: scaleX(-1);
 }
 
+.details-2 .decoration-leaves {
+  top: 80px;
+  right: -100px;
+  width: 500px;
+  opacity: 0.2;
+}
+
 @media(max-width: 992px) {
  .xl-text {
   font-size: 50px;      
@@ -82,6 +89,14 @@
 .services .col-md-4 {
   border-bottom: 1px #ccc solid;
   margin: 10px 0;
+}
+
+.details-2 {
+  margin-top: 20px !important;
+}
+
+.details-2 .decoration-leaves {
+  top: 300px;
 }
 }
 
