@@ -26,7 +26,7 @@
 .header .decoration-leaves {
   top: 80px;
   left: -100px;
-  width: 500px;
+  width: 600px;
   opacity: 0.2;
   transform: scaleX(-1);
 }
@@ -34,7 +34,7 @@
 .header .decoration-leaves-2 {
   top: 80px;
   right: -100px;
-  width: 500px;
+  width: 600px;
   opacity: 0.2;
 }
 
@@ -49,18 +49,25 @@
 }
 
 .details .decoration-leaves {
-  top: 80px;
+  // top: 80px;
   left: -100px;
-  width: 500px;
+  width: 600px;
   opacity: 0.2;
   transform: scaleX(-1);
 }
 
 .details-2 .decoration-leaves {
-  top: 80px;
+  // top: 80px;
   right: -100px;
-  width: 500px;
+  width: 600px;
   opacity: 0.2;
+}
+
+.contact .decoration-leaves {
+  left: -100px;
+  width: 600px;
+  opacity: 0.2;
+  transform: scaleX(-1);
 }
 
 @media(max-width: 992px) {
