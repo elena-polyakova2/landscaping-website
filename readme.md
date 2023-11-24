@@ -1,8 +1,6 @@
 # Amazing Landscaping Website
 
-Bootstrap website for a company that creates and customizes landscapes. It is a very light business theme with a clean design.
-
-<img src="./images/screen.png" />
+Bootstrap website for a fictitious company that creates and customizes landscapes. It is a light business theme with a clean design.
 
 ## Features
 
