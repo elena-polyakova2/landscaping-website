@@ -18,6 +18,17 @@ html,body {
 .btn-outline-secondary {
   &:hover {
     color: #fff;
+    font-weight: normal;
+  }
+}
+
+.header .btn-outline-secondary {
+  font-weight: bold;
+}
+
+.header .btn-outline-secondary {
+  &:hover {
+    font-weight: normal;
   }
 }
 
