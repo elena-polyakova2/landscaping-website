@@ -1,3 +1,8 @@
+html,body {
+  margin:0;
+  padding:0;
+}
+
 .xl-text {
   font-size: 75px;
 }
@@ -18,7 +23,7 @@
 
 .btn-secondary {
   &:hover {
-    transform: scale(1.2); 
+    transform: scale(1.1); 
     background-color: #8c37c8;
   }
 }
@@ -26,7 +31,7 @@
 .header .decoration-leaves {
   top: 80px;
   left: -100px;
-  width: 600px;
+  width: 450px;
   opacity: 0.2;
   transform: scaleX(-1);
 }
@@ -34,7 +39,7 @@
 .header .decoration-leaves-2 {
   top: 80px;
   right: -100px;
-  width: 600px;
+  width: 450px;
   opacity: 0.2;
 }
 
@@ -59,7 +64,7 @@
 .details-2 .decoration-leaves {
   // top: 80px;
   right: -100px;
-  width: 600px;
+  width: 450px;
   opacity: 0.2;
 }
 

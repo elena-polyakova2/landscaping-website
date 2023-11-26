@@ -2,6 +2,8 @@
 
 Bootstrap website for a fictitious company that creates and customizes landscapes. It is a light business theme with a clean design.
 
+| ![2023-08-04 (1)](images\Amazing Landscaping_screen.png) |
+
 ## Features
 
 - Clean design with background images/patterns
