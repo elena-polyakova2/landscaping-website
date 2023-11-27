@@ -18,17 +18,7 @@ html,body {
 .btn-outline-secondary {
   &:hover {
     color: #fff;
-    font-weight: normal;
-  }
-}
-
-.header .btn-outline-secondary {
-  font-weight: bold;
-}
-
-.header .btn-outline-secondary {
-  &:hover {
-    font-weight: normal;
+    
   }
 }
 
@@ -36,6 +26,16 @@ html,body {
   &:hover {
     transform: scale(1.1); 
     background-color: #8c37c8;
+  }
+}
+
+.header .btn-secondary {
+  font-weight: normal;
+}
+
+.header .btn-secondary {
+  &:hover {
+    transform: none;
   }
 }
 
