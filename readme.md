@@ -1,7 +1,6 @@
 # Amazing Landscaping Website
 
-Bootstrap website for a fictitious company that creates and customizes landscapes. It is a light business theme with a clean design.
-
+Responsive website for a fictitious company that creates and customizes landscapes. It is a light business theme with a clean design made with Bootstrap, SCSS, Font Awesome and Node.
 
 ![Amazing Landscaping_screen](https://github.com/elena-polyakova2/landscaping-website/assets/124845955/25532a89-7ebf-47d2-a21f-f4a8ecf12c20)
 |:--:| 
