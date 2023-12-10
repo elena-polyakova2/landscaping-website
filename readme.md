@@ -17,6 +17,7 @@ Responsive website for a fictitious company that creates and customizes landscap
 - Contact form
 - Inner article page
 - Font awesome icons
+- Images from Pixabay
 
 ## Live
 See live at https://amazing-landscaping.elenasoftdev.ca
